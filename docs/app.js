@@ -7,7 +7,7 @@ var selected_restaurant = 0;
 
 var options = {
     url: function() {
-        return "http://localhost:8000/scripts_and_data/restaurants_ids.json";
+        return "../scripts_and_data/restaurants_ids.json";
     },
     getValue: "name",
     list: {
@@ -26,7 +26,7 @@ $(document).ready( function() {
 getData = function() {
     $.ajax({
         dataType: "json",
-        url: "http://localhost:8000/scripts_and_data/reviews_with_sentiments.json",
+        url: "../scripts_and_data/reviews_with_sentiments.json",
         }).done(function(data) {
 
             all_reviews = _.find(data, function(restaurant) { return restaurant[selected_restaurant]}).reviews;
