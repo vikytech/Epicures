@@ -7,14 +7,16 @@ Welcome to Epicures!
 # <i class="icon-picture"></i> **Screenshots**
 ## **Landing page:**
 
-![Screenshot of Application home page](https://github.com/APIHacks2017/epicures/blob/master/screenshots/main.png?raw=true) 
+![Screenshot of Application home page](screenshots/main.png) 
+
+![Screenshot of Application Search](screenshots/search.png) 
 
 ## **Analysis report**
 
-![route](https://github.com/APIHacks2017/epicures/blob/master/screenshots/analysis.PNG?raw=true)
+![Trend charts analysis](screenshots/trend-charts.png)
 
 ## **Reviews**
 
-![enter image description here](https://github.com/APIHacks2017/epicures/blob/master/screenshots/withreviews.PNG?raw=true)
+![Review Section](screenshots/reviews.png)
 
 ----------
